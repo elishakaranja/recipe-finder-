@@ -55,9 +55,9 @@ const commentsList = document.getElementById('comments-list'); // Select the lis
 
 //Event listener for the comment form
 commentForm.addEventListener('submit', (e) => {
-    e.preventDefault(); // Prevent the default form submission
-    /*const newComment = commentInput.value.trim(); // Get the comment text and remove extra spaces
-    if (newComment) {
+    e.preventDefault();}) // Prevent the default form submission
+    const newComment = commentInput.value.trim(); // Get the comment text and remove extra spaces
+    /*if (newComment) {
         addComment(newComment); // Call the addComment function if a comment was provided
     }
 });
