@@ -6,13 +6,13 @@ const resultsList = document.querySelector('#results'); // Select the element wh
 //Define the base URL for TheMealDB API
 const baseUrl = 'https://www.themealdb.com/api/json/v1/1';
 
-/*Add a click event listener to the search form
+//Add a click event listener to the search form
 searchForm.addEventListener('click', (e) => {
     e.preventDefault(); // Prevent the default form submission
     searchRecipes(); // Call the searchRecipes function when the form is clicked
 });
 
-// Function to search for recipes
+/*Function to search for recipes
 async function searchRecipes() {
     const searchValue = searchInput.value.trim(); // Get the value from the search input and remove extra spaces
 
