@@ -12,16 +12,16 @@ searchForm.addEventListener('click', (e) => {
     searchRecipes(); // Call the searchRecipes function when the form is clicked
 });
 
-/*Function to search for recipes
+//Function to search for recipes
 async function searchRecipes() {
     const searchValue = searchInput.value.trim(); // Get the value from the search input and remove extra spaces
 
-    // Search for meals by name using the MealDB API
+    //Search for meals by name using the MealDB API
     const searchResponse = await fetch(`${baseUrl}/search.php?s=${searchValue}`); // Make a request to the API
     const searchData = await searchResponse.json(); // Convert the API response to JSON
-    console.log(searchData); // Log the data to the console for debugging
+    console.log(searchData); } // Log the data to the console for debugging
 
-    // Check if the search was successful and if there are meals found
+    /* Check if the search was successful and if there are meals found
     if (searchData.meals) {
         displayRecipes(searchData.meals); // Display search results by calling the displayRecipes function
     } else {
