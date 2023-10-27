@@ -25,4 +25,4 @@ css/styles.css: The CSS file contains styles for the web page, including the lay
 js/script.js: The JavaScript file handles user interactions, API requests, and comment functionality.
 
 #### how to View
-To view this project open this link in your browser 
+To view this project copy and open this link in your browser     https://elishakaranja.github.io/recipe-finder-/
