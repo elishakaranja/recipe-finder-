@@ -48,12 +48,12 @@ function displayRecipes(recipes) {
     resultsList.innerHTML = html; // Display the HTML content in the resultsList element
 }
 
-/*Select elements related to comments
+//Selecting elements related to comments
 const commentForm = document.getElementById('comment-form'); // Select the comment form
 const commentInput = document.getElementById('comment-input'); // Select the input field for adding comments
 const commentsList = document.getElementById('comments-list'); // Select the list where comments will be displayed
 
-//Event listener for the comment form
+/*Event listener for the comment form
 commentForm.addEventListener('submit', (e) => {
     e.preventDefault(); // Prevent the default form submission
     const newComment = commentInput.value.trim(); // Get the comment text and remove extra spaces
