@@ -1,9 +1,9 @@
-/* Selecting HTML elements and storing them in variables
+// Selecting HTML elements and storing them in variables
 const searchForm = document.querySelector('form'); // Select the form element
 const searchInput = document.querySelector('#search'); // Select the search input field
 const resultsList = document.querySelector('#results'); // Select the element where search results will be displayed
 
-// Define the base URL for TheMealDB API
+/*Define the base URL for TheMealDB API
 const baseUrl = 'https://www.themealdb.com/api/json/v1/1';
 
 // Add a click event listener to the search form
