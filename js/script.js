@@ -29,10 +29,10 @@ async function searchRecipes() {
     }
 }
 
-/* Function to display recipes
+//Function to display recipes
 function displayRecipes(recipes) {
     let html = ''; // Initialize an empty string to store HTML content
-    recipes.forEach((recipe) => { // Loop through each recipe in the data
+    recipes.forEach((recipe) => )} /*Loop through each recipe in the data
         html += `
         <div>
             <img src="${recipe.strMealThumb}" alt="${recipe.strMeal}"> <!-- Display the meal's image -->
