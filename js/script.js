@@ -66,6 +66,6 @@ commentForm.addEventListener('submit', (e) => {
 function addComment(comment) {
     const commentItem = document.createElement('li'); // Create a new list item
     commentItem.textContent = comment; // Set the text content of the list item to the comment text
-    commentsList.appendChild(commentItem);} // Add the list item to the comments list
-   /* commentInput.value = ''; // Clear the input field after adding the comment
-}*/
+    commentsList.appendChild(commentItem); // Add the list item to the comments list
+    commentInput.value = ''; // Clear the input field after adding the comment
+}
