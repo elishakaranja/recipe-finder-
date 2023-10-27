@@ -25,7 +25,7 @@ async function searchRecipes() {
     if (searchData.meals) {
         displayRecipes(searchData.meals); // Display search results by calling the displayRecipes function
     } else {
-        resultsList.innerHTML = '<p>No meals found.</p>'; // Display a message if no meals were found
+        resultsList.innerHTML = '<p>No meals found,Try again.</p>'; // Display a message if no meals were found
     }
 }
 
