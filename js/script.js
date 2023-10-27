@@ -32,7 +32,7 @@ async function searchRecipes() {
 //Function to display recipes
 function displayRecipes(recipes) {
     let html = ''; // Initialize an empty string to store HTML content
-    recipes.forEach((recipe) => )} /*Loop through each recipe in the data
+    recipes.forEach((recipe) => { // Loop through each recipe in the data
         html += `
         <div>
             <img src="${recipe.strMealThumb}" alt="${recipe.strMeal}"> <!-- Display the meal's image -->
@@ -44,8 +44,8 @@ function displayRecipes(recipes) {
             <a href="${recipe.strSource}" target="_blank">View Recipe</a> <!-- Create a link to view the recipe -->
         </div>
         `;
-    });
-    resultsList.innerHTML = html; // Display the HTML content in the resultsList element
+    });}
+    /*resultsList.innerHTML = html; // Display the HTML content in the resultsList element
 }
 
 // Select elements related to comments
