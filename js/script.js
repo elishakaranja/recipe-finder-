@@ -19,9 +19,9 @@ async function searchRecipes() {
     //Search for meals by name using the MealDB API
     const searchResponse = await fetch(`${baseUrl}/search.php?s=${searchValue}`); // Make a request to the API
     const searchData = await searchResponse.json(); // Convert the API response to JSON
-    console.log(searchData); } // Log the data to the console for debugging
+    console.log(searchData);  // Log the data to the console for debugging
 
-    /* Check if the search was successful and if there are meals found
+    //Check if the search was successful and if there are meals found
     if (searchData.meals) {
         displayRecipes(searchData.meals); // Display search results by calling the displayRecipes function
     } else {
@@ -29,7 +29,7 @@ async function searchRecipes() {
     }
 }
 
-// Function to display recipes
+/* Function to display recipes
 function displayRecipes(recipes) {
     let html = ''; // Initialize an empty string to store HTML content
     recipes.forEach((recipe) => { // Loop through each recipe in the data
