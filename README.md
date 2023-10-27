@@ -26,3 +26,9 @@ js/script.js: The JavaScript file handles user interactions, API requests, and c
 
 #### how to View
 To view this project copy and open this link in your browser     https://elishakaranja.github.io/recipe-finder-/
+
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
